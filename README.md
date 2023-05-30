@@ -28,3 +28,7 @@ The model API should be launched before executing project components. This can b
 - apicalls.py calls all diagnostics through the API and generate a consolidated report
 - reporting.py allows to generate a full pdf report gathering performance plots, metrics and other useful statistics
 - fullprocess.py should be run regularly using a CRON job. It monitors new data availability, checks model drift, decides to retrain and redeploy an updated model in case shifting is detected.
+
+## Cron job implementation
+- create a new cron job using crontab -e
+- the cron job should run the fullprocess.py script every 10 minutes in order to automate the whole process from data ingestion to model redeployment as needed

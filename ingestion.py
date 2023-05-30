@@ -62,8 +62,8 @@ def merge_multiple_dataframe():
 
     # save ingested files with timestamp
     with open(os.path.join(output_folder_path, 'ingestedfiles.txt'), "w") as f:
-        f.write(
-            f"Ingestion date: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
+        #f.write(
+         #   f"Ingestion date: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}\n")
         f.write(str(ingestedfiles))    
 
 

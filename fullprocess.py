@@ -98,7 +98,3 @@ if move_to_next_step:
     reporting.score_model()
     os.system('python apicalls.py')
 
-
-
-
-
