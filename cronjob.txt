@@ -1,1 +1,1 @@
-*/10  * * * * python fullprocess.py
+*/10  * * * * cd a-dynamic-risk-assessment-system && /Users/quadribello/miniconda3/envs/udacity/bin/python /Users/quadribello/a-dynamic-risk-assessment-system/fullprocess.py
